@@ -1,0 +1,31 @@
+/* .bg {
+  width: 30rem;
+  height: 25rem;
+  background-color: aliceblue;
+} */
+.bg {
+  position: absolute;
+  /* top: 0;
+  left: 0; */
+  width: 40rem;
+  height: 30rem;
+  background-size: cover;
+  background-position: center;
+  will-change: opacity;
+  object-fit: contain;
+  image-rendering: high-quality;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+@media (max-width: 800px) {
+  .bg {
+    width: 100%;
+    /* padding: 1rem; */
+    margin: auto;
+    object-fit: none;
+  }
+}
