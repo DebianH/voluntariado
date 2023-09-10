@@ -1,18 +1,14 @@
-/* .bg {
-  width: 30rem;
-  height: 25rem;
-  background-color: aliceblue;
-} */
 .bg {
   position: absolute;
   /* top: 0;
   left: 0; */
-  width: 40rem;
+  width: 50%;
   height: 30rem;
+  margin: 0 auto;
   background-size: cover;
   background-position: center;
   will-change: opacity;
-  object-fit: contain;
+  object-fit: fill !important;
   image-rendering: high-quality;
 }
 .flex {
@@ -21,11 +17,16 @@
   align-items: center;
   width: 50%;
 }
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   .bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
+    /* margin: 5rem; */
+    /* padding-left: 1rem; */
     /* padding: 1rem; */
-    margin: auto;
-    object-fit: none;
+    /* margin: auto; */
+    object-fit: cover;
   }
 }

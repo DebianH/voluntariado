@@ -36,7 +36,7 @@ const Inicio = () => {
   })
 
   return (
-      <div style={{ width: '100%', height: '100%', background: '#253237' }}>
+      <div style={{ width: '100%', height: '100%', background: '#6f067a' }}>
       <Parallax ref={parallax} pages={4}>
       <h1>Bienvenid@s Voluntari@s</h1>
         <ParallaxLayer offset={1} speed={1} style={{ backgroundColor: '#94d18a' }} />
@@ -84,13 +84,15 @@ const Inicio = () => {
           <img src={url('cloud')} style={{ display: 'block', width: '15%', marginLeft: '75%' }} />
         </ParallaxLayer>
         {/* tierra */}
-        <ParallaxLayer offset={3.6} speed={0.4} style={{ opacity: 0.6 }}>
-          <img src={url('cloud')} style={{ display: 'block', width: '10%', marginLeft: '15%' }} />
-          <img src={url('cloud')} style={{ display: 'block', width: '25%', marginLeft: '70%' }} />
+        <ParallaxLayer offset={3.3} speed={0.4} style={{ opacity: 0.6 }}>
+          <img src={url('cloud')} style={{ display: 'block', width: '20%', marginLeft: '10%' }} />
+          <img src={url('cloud')} style={{ display: 'block', width: '25%', marginLeft: '76%' }} />
+          <img src={url('cloud')} style={{ display: 'block', width: '45%', marginLeft: '50%' }} />
+          <img src={url('cloud')} style={{ display: 'block', width: '15%', marginLeft: '20%' }} />
         </ParallaxLayer>
 
         <ParallaxLayer
-          offset={2.5}
+          offset={2.6}
           speed={-0.4}
           style={{
             display: 'flex',
@@ -179,7 +181,7 @@ const Inicio = () => {
         </ParallaxLayer>
 
         <ParallaxLayer offset={3.1} speed={-0.3} style={{ pointerEvents: 'none' }}>
-          <img src={'./summer.png'} style={{ width: '15%', marginRight: '-10%' }} />
+          <img src={'./summer.png'} id='summer' />
         </ParallaxLayer>
         
       </Parallax>

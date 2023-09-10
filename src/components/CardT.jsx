@@ -12,7 +12,7 @@ const CardT = () => {
             <li><p> +18 años y residir en Quito.</p></li>
             <li><p> Título de educación secundaria.</p></li>
             <li><p> Excelentes habilidades de comunicación, dialogo en público y escucha activa</p></li>
-            <li><p> eseable experiencia en atención a personas (servicio al cliente, ventas etc.)</p></li>
+            <li><p> Deseable experiencia en atención a personas (servicio al cliente, ventas etc.)</p></li>
             <li><p> Facillidad de dialogar y manejar objeciones.</p></li>
             
         </ul>

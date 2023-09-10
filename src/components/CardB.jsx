@@ -6,7 +6,7 @@ const CardB = () => {
       <img src="ben.jpg" alt="Card Image" className='img2'/>
       <div className="card-content">
         <h2>Unete a nuestro equipo!</h2>
-        <ul>
+        <ul className="ul_b">
             <li><p>Básico $360</p></li>
             <li><p>Más movilidad</p></li>
             <li><p>Más comisiones</p></li>

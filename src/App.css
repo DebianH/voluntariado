@@ -103,6 +103,7 @@ h3 {
   font-family: "Quicksand", sans-serif;
   font-size: 2rem;
   color: #0d5e25;
+  margin-top: 0.5rem;
 }
 h4 {
   font-family: "Quicksand", sans-serif;
@@ -117,19 +118,31 @@ p {
   color: #666;
   text-align: justify;
 }
+#summer {
+  width: 15%;
+  margin-right: 10%;
+}
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .card {
     max-width: 400px;
   }
+  #summer {
+    width: 20%;
+    margin-bottom: 100px;
+  }
 }
 
-ul {
+.ul_b {
   list-style-type: "✅";
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
 }
 
 .ul {
-  list-style-type: "✔️";
+  list-style-type: "🟢";
   padding: 0 1rem;
   display: flex;
   flex-direction: column;
