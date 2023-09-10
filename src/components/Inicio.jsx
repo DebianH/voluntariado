@@ -4,6 +4,7 @@ import { useTransition, animated } from '@react-spring/web'
 import styles from './styles.module.css'
 import { CardO } from './CardO'
 import CardB from './CardB'
+import CardT from './CardT'
 
 const url = (name, wrap = false) =>
   `${wrap ? 'url(' : ''}https://awv3node-homepage.surge.sh/build/assets/${name}.svg${wrap ? ')' : ''}`
@@ -36,10 +37,12 @@ const Inicio = () => {
 
   return (
       <div style={{ width: '100%', height: '100%', background: '#253237' }}>
-      <Parallax ref={parallax} pages={3}>
+      <Parallax ref={parallax} pages={4}>
       <h1>Bienvenid@s Voluntari@s</h1>
         <ParallaxLayer offset={1} speed={1} style={{ backgroundColor: '#94d18a' }} />
         <ParallaxLayer offset={2} speed={1} style={{ backgroundColor: '#87BCDE' }} />
+        <ParallaxLayer offset={3} speed={1} style={{ backgroundColor: '#5bb84c' }} />
+        {/* <ParallaxLayer offset={4} speed={1} style={{ backgroundColor: '#c0c0c0' }} /> */}
 
         <ParallaxLayer
           offset={0}
@@ -79,6 +82,11 @@ const Inicio = () => {
         <ParallaxLayer offset={2.6} speed={0.4} style={{ opacity: 0.6 }}>
           <img src={url('cloud')} style={{ display: 'block', width: '20%', marginLeft: '5%' }} />
           <img src={url('cloud')} style={{ display: 'block', width: '15%', marginLeft: '75%' }} />
+        </ParallaxLayer>
+        {/* tierra */}
+        <ParallaxLayer offset={3.6} speed={0.4} style={{ opacity: 0.6 }}>
+          <img src={url('cloud')} style={{ display: 'block', width: '10%', marginLeft: '15%' }} />
+          <img src={url('cloud')} style={{ display: 'block', width: '25%', marginLeft: '70%' }} />
         </ParallaxLayer>
 
         <ParallaxLayer
@@ -154,10 +162,23 @@ const Inicio = () => {
           }}
           onClick={() => parallax.current.scrollTo(0)}>
           {/* <img src={url('clients-main')} style={{ width: '40%' }} /> */}
+          <CardT/>
+        </ParallaxLayer>
+
+        <ParallaxLayer
+          offset={3}
+          speed={-0}
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+          }}
+          onClick={() => parallax.current.scrollTo(0)}>
+          {/* <img src={url('clients-main')} style={{ width: '40%' }} /> */}
           <CardB/>
         </ParallaxLayer>
 
-        <ParallaxLayer offset={2.1} speed={-0.3} style={{ pointerEvents: 'none' }}>
+        <ParallaxLayer offset={3.1} speed={-0.3} style={{ pointerEvents: 'none' }}>
           <img src={'./summer.png'} style={{ width: '15%', marginRight: '-10%' }} />
         </ParallaxLayer>
         

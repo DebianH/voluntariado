@@ -99,6 +99,15 @@ h2 {
   color: #333;
   font-family: "Quicksand", sans-serif;
 }
+h3 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 2rem;
+  color: #0d5e25;
+}
+h4 {
+  font-family: "Quicksand", sans-serif;
+  margin: 0.5rem 0;
+}
 .card-content p {
   font-family: "Quicksand", sans-serif;
 }
@@ -119,7 +128,32 @@ ul {
   list-style-type: "✅";
 }
 
+.ul {
+  list-style-type: "✔️";
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
 .img2 {
   width: 100%;
   height: 5rem;
+}
+/* ------ */
+.underlined {
+  /*   background: red; */
+  position: relative;
+}
+.underline-clip:after {
+  content: "";
+  position: absolute;
+  top: 95%;
+  width: 150%;
+  aspect-ratio: 3 / 1;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border-radius: 50%;
+  border: 6px solid hsl(130 80% 50%);
+  /* Use a clip-path to hide and show the bits you want */
+  clip-path: polygon(0 0, 50% 50%, 100% 0);
 }
