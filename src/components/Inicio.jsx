@@ -92,7 +92,7 @@ const Inicio = () => {
         </ParallaxLayer>
 
         <ParallaxLayer
-          offset={2.6}
+          offset={3.5}
           speed={-0.4}
           style={{
             display: 'flex',
@@ -162,7 +162,7 @@ const Inicio = () => {
             alignItems: 'center',
             justifyContent: 'center',
           }}
-          onClick={() => parallax.current.scrollTo(0)}>
+          onClick={() => parallax.current.scrollTo(3)}>
           {/* <img src={url('clients-main')} style={{ width: '40%' }} /> */}
           <CardT/>
         </ParallaxLayer>
