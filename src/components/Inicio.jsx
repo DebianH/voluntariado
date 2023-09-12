@@ -88,7 +88,10 @@ const Inicio = () => {
           <img src={url('cloud')} style={{ display: 'block', width: '20%', marginLeft: '10%' }} />
           <img src={url('cloud')} style={{ display: 'block', width: '25%', marginLeft: '76%' }} />
           <img src={url('cloud')} style={{ display: 'block', width: '45%', marginLeft: '50%' }} />
-          <img src={url('cloud')} style={{ display: 'block', width: '15%', marginLeft: '20%' }} />
+          {/* <img src={url('cloud')} style={{ display: 'block', width: '15%', marginLeft: '20%' }} /> */}
+        </ParallaxLayer>
+        <ParallaxLayer offset={3.8} speed={0.4} style={{ opacity: 0.7 }}>          
+          <img src={url('cloud')} style={{ display: 'block', width: '25%', marginRight: '70%', marginTop:"10%" }} />
         </ParallaxLayer>
 
         <ParallaxLayer
