@@ -178,7 +178,7 @@ const Inicio = () => {
           <CardB/>
         </ParallaxLayer>
 
-        <ParallaxLayer offset={3.1} speed={-0.3} style={{ pointerEvents: 'none' }}>
+        <ParallaxLayer offset={3} speed={-0.3} style={{ pointerEvents: 'none' }}>
           <img src={'./summer.png'} id='summer' />
         </ParallaxLayer>
         
