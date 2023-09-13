@@ -90,6 +90,9 @@ const Inicio = () => {
         <ParallaxLayer offset={3.8} speed={0.4} style={{ opacity: 0.7 }}>          
           <img src={url('cloud')} style={{ display: 'block', width: '25%', marginRight: '70%', marginTop:"10%" }} />
         </ParallaxLayer>
+        <ParallaxLayer offset={3} speed={0.4} style={{ opacity: 0.5 }}>          
+          <img src={url('cloud')} style={{ display: 'block', width: '25%', marginLeft: '70%', marginTop:"10%" }} />
+        </ParallaxLayer>
 
         <ParallaxLayer
           offset={3.5}
