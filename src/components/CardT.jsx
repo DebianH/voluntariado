@@ -5,9 +5,9 @@ const CardT = () => {
     <div>
       <div className="card_b">
       {/* <img src="ben.jpg" alt="Card Image" className='img2'/> */}
-      <h3>3 <span className="underlined underline-clip">Facer 1</span> Trade Hunter</h3>
+      <h3><span className="underlined underline-clip">Te estamos buscando!</span></h3>
       <div className="card-content">
-        <h4>Te estamos buscando!</h4>
+        <h4 style={{textAlign: 'center', fontSize: '1.5rem', color: '#0d5e25', letterSpacing:"2px"}}><strong>Trade Hunter</strong></h4>
         <ul className="ul">
             <li><p> +18 años y residir en Quito.</p></li>
             <li><p> Título de educación secundaria.</p></li>

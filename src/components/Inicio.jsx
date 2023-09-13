@@ -12,9 +12,6 @@ const url = (name, wrap = false) =>
   const slides = [
     'TradeHunter.png',
     'onu.png',
-    // 'convocatoria.jpg'
-
-    
   ]
 
 const Inicio = () => {
@@ -105,8 +102,6 @@ const Inicio = () => {
           }}>
           <img src={url('earth')} style={{ width: '60%' }} />
         </ParallaxLayer>
-
-       
 
         <ParallaxLayer
           offset={2}
