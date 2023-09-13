@@ -9,12 +9,12 @@ const CardB = () => {
         <ul className="ul_b">
             <li><p>6 horas de trabajo</p></li>
             <li><p>Horarios flexibles</p></li>
-            {/* <li><p>5 días a la semana puede variar con fines de semana</p></li> */}
-            <li><p>$360 dólares base más comisiones sobre meta.</p></li>
+            <li><p>$360 dólares base más comisiones sobre meta</p></li>
             <li><p>Más movilidad</p></li>
             <li><p>Más incentivos</p></li>
             <li><p>Seguro social</p></li>
             <li><p>Excelente ambiente laboral</p></li>
+            <li><p>Espacios de aprendizaje constante acerca de liderazgo, comunicación entre otros.</p></li>
             
         </ul>
         <br />
