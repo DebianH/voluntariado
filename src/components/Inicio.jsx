@@ -11,7 +11,7 @@ const url = (name, wrap = false) =>
 
   const slides = [
     'TradeHunter.png',
-    'onu.png',
+    // 'onu.png',
   ]
 
 const Inicio = () => {
