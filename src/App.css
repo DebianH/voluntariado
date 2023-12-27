@@ -61,7 +61,7 @@ h1 {
 
 .card_b {
   width: 100%;
-  max-width: 500px;
+  max-width: 600px;
   background-color: #ffffff;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
@@ -89,7 +89,7 @@ h1 {
 }
 
 .card-content {
-  padding: 20px;
+  padding: 1.25rem;
   text-align: center;
 }
 
@@ -174,4 +174,8 @@ p {
   border: 6px solid hsl(130 80% 50%);
   /* Use a clip-path to hide and show the bits you want */
   clip-path: polygon(0 0, 50% 50%, 100% 0);
+}
+
+.ul_list {
+  list-style-type: "🔹";
 }

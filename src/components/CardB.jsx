@@ -19,7 +19,7 @@ const CardB = () => {
         </ul>
         <br />
         <hr />
-        <p style={{textAlign: 'center', fontSize: '1rem', color: '#87BCDE'}}><strong>¡Envianos tu Cv!</strong> <br /> supervisoruio2@tradehunter.com.ec</p>
+        <p style={{textAlign: 'center', fontSize: '1rem', color: '#87BCDE'}}><strong style={{margin: '.8rem', letterSpacing:"1px"}}>¡Se parte de nuestro equipo, envianos tu Cv!</strong> <br /> supervisoruio2@tradehunter.com.ec</p>
       </div>
     </div>
   )

@@ -10,7 +10,7 @@ const url = (name, wrap = false) =>
   `${wrap ? 'url(' : ''}https://awv3node-homepage.surge.sh/build/assets/${name}.svg${wrap ? ')' : ''}`
 
   const slides = [
-    'soyvoluntario.png',
+    // 'soyvoluntario.png',s
     // 'onu.png',
   ]
 
@@ -35,7 +35,9 @@ const Inicio = () => {
   return (
       <div style={{ width: '100%', height: '100%', background: '#72c4f2' }}>
       <Parallax ref={parallax} pages={4}>
-      <h1 style={{marginTop:'2rem'}}>Bienvenido!!</h1>
+      <h1 style={{marginTop:'2rem', color:'#ffffff', letterSpacing:'4px'}}>Bienvenido!!</h1>
+      <h3 className={styles.title}  style={{fontSize:'3rem', letterSpacing:'4px'}}>Yo Soy voluntario!<br /><span className={styles.title_span}>¿Y tu?</span></h3>
+      {/* <h3 id='title'>¿Y tu?</h3> */}
         <ParallaxLayer offset={1} speed={1} style={{ backgroundColor: '#94d18a' }} />
         <ParallaxLayer offset={2} speed={1} style={{ backgroundColor: '#87BCDE' }} />
         <ParallaxLayer offset={3} speed={1} style={{ backgroundColor: '#5bb84c' }} />
@@ -154,7 +156,7 @@ const Inicio = () => {
           }}>
           <CardO/>
         </ParallaxLayer>
-
+        {/* <CardB/> */}
         <ParallaxLayer
           offset={2}
           speed={-0}
